@@ -84,3 +84,13 @@ body{
     background-color: forestgreen;
     border-radius: 10px;
 }
+@keyframes textAnimation 
+{
+    from { opacity: 0; transform: translateY(50px); }  /* Starting state: invisible, moved 50px down */
+    to { opacity: 1; transform: translateY(0px); }  /* End state: fully visible, back to original position */
+}
+.home,.categories,.login{
+    color: white;
+    text-decoration: none;
+}
+
