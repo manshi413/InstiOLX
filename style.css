@@ -34,7 +34,7 @@ body{
     padding-left: 30px;
     padding-right: 30px;
 }
-.sell:hover{
+.sell:hover,.home:hover,.categories:hover,.login:hover{
     font-size: 105%;
     cursor: pointer;
 }
