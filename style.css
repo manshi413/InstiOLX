@@ -197,5 +197,6 @@ body{
 .carText{
     font-family: monospace;
     font-size: 24px;
-    color: darkgreen;
+    color: #022d02;
+    font-weight: bolder;
 }
