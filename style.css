@@ -144,4 +144,8 @@ body{
     animation-name: fade1;
     animation-duration: 4s;
 }
+@keyframes fade1 {
+    0%,33.33% {opacity: 1;}
+    33.34%,100% {opacity: 0;}
+}
   
