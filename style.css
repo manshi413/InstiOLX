@@ -1,6 +1,11 @@
 @keyframes textAnimation 
 {
-    from { opacity: 0; transform: translateX(50px); }  
+    from { opacity: 0; transform: translateX(100%); }  
+    to { opacity: 1; transform: translateX(0px); }  
+}
+@keyframes textAnimate 
+{
+    from { opacity: 0; transform: translateX(-100%); }  
     to { opacity: 1; transform: translateX(0px); }  
 }
 *{
@@ -84,7 +89,7 @@ body{
     border-bottom-left-radius: 20px;
     border-style: groove;
     border-color: darkgreen;
-    animation: textAnimation 2s ease-in-out forwards;
+    animation: textAnimate 2s ease-in-out forwards;
 }
 .search{
     display: flex;
