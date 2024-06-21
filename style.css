@@ -35,8 +35,8 @@ body{
     padding-right: 30px;
 }
 .sell:hover{
-    font-size: 105%;;
-    border-radius: 105%;
+    font-size: 105%;
+    cursor: pointer;
 }
 .banner{
     display: flex;
