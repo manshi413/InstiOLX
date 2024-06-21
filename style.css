@@ -94,7 +94,7 @@ body{
 .search{
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 #things{
     width: 400px;
