@@ -38,6 +38,11 @@ body{
     font-size: 105%;
     cursor: pointer;
 }
+.home:hover,.categories:hover,.login:hover{
+    background-color: #086c08;
+    padding: 10px;
+    border-radius: 10px;
+}
 .banner{
     display: flex;
     justify-content: center;
@@ -54,7 +59,7 @@ body{
     padding-bottom: 10px;
     padding-right: 80px;
     padding-left: 80px;
-    font-size: 150px;
+    font-size: 100px;
     font-weight: bolder;
 }
 .img{
