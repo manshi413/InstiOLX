@@ -140,12 +140,29 @@ body{
     opacity: 0;
     animation-iteration-count: infinite;
 }
-.pic1{
+.pic1,.pic4,.pic7{
     animation-name: fade1;
+    animation-duration: 4s;
+}
+.pic2,.pic5,.pic8{
+    animation-name: fade2;
+    animation-duration: 4s;
+}
+.pic3,.pic6,.pic9{
+    animation-name: fade3;
     animation-duration: 4s;
 }
 @keyframes fade1 {
     0%,33.33% {opacity: 1;}
     33.34%,100% {opacity: 0;}
 }
-  
+@keyframes fade2 {
+    0%,33.33% {opacity: 0;}
+    33.34%,66.66% {opacity: 1;}
+    66.67%,100% {opacity: 0;}
+} 
+@keyframes fade3 {
+    0%,33.33% {opacity: 0;}
+    33.34%,66.66% {opacity: 0;}
+    66.67%,100% {opacity: 1;}
+} 
