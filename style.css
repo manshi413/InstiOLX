@@ -104,7 +104,7 @@ body{
     background-color: forestgreen;
     border-radius: 10px;
 }
-.home,.categories,.login{
+.home a,.categories a,.login a{
     color: white;
     text-decoration: none;
 }
