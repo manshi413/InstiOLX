@@ -12,7 +12,7 @@ This project is an online classifieds platform inspired by websites like OLX. It
 
 **Setup**
 <ol>
-  <li>Clone the Repository: git clone https://[your_github_repo_url].git </li>
+  <li>Clone the Repository: git clone https://github.com/manshi413/InstiOLX.git </li>
   <li>Install dependencies: pip install -r requirements.txt</li>
   <li>Configure database settings </li>
   <li>Run migrations to create database tables</li>
