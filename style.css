@@ -1,3 +1,24 @@
-.header,.sections{
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui;
+}
+.header{
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    background-color: green;
+}
+.webName{
     display: flex;
+    font-size: 35px;
+    align-items: center;
+    font-weight: bolder;
+}
+.sections{
+    display: flex;
+    column-gap: 137px;
+    font-size: 20px;
+    align-items: center;
+    font-weight: bold;
 }
