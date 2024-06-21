@@ -25,6 +25,7 @@ body{
     font-size: 20px;
     align-items: center;
     font-weight: bold;
+    height: 50px;
 }
 .sell{
     background: linear-gradient(to right, #073707, #a4f32a);
@@ -93,4 +94,7 @@ body{
     color: white;
     text-decoration: none;
 }
-
+.form{
+    display: flex;
+    justify-content: center;
+}
