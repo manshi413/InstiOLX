@@ -1,7 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: monospace;
+    font-family: cursive;
+}
+body{
     background: linear-gradient(to right, #069306, #d6f0a2);
 }
 .header{
@@ -45,8 +47,6 @@
     justify-content: center;
     color: white;
     margin-top: 5px;
-    margin-right: 100px;
-    margin-left: 100px;
     background: linear-gradient(to bottom, #021c02, #24ff24);
     padding-top: 10px;
     border-bottom-width: 10px;
