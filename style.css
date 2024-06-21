@@ -122,10 +122,10 @@ body{
     justify-content: center;
     gap: 50px;
 }
-.slideshow1,.slideshow2,.slideshow3{
+.slideshow{
     height: 350px;
     width: 350px;
-    position: absolute;
+    position:relative;
     overflow: hidden;
     border: groove 2px darkgreen;
     border-radius: 20px;
